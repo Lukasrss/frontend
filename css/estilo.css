@@ -1,0 +1,12 @@
+
+/*Variaveis para tema escuro e tema claro*/
+:root, :root[data-theme='dark'] {
+    --primary-color: #F0F0F0;
+    --primary-bg-color: #111217;
+
+}
+:root[data-theme='light'] {
+    --primary-color: #0B0B0F;
+    --primary-bg-color: #E9E9E9 ;
+
+}
