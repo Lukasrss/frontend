@@ -62,7 +62,7 @@ body {
     color: var(--text-color);
 }
 
-/* conteudo extra */
+/* Conteudos extra */
 
 #header {
     display: flex;
@@ -76,4 +76,8 @@ body {
 .header-toggle {
     display: flex;
     justify-content: flex-end;
+}
+.header-logo .logo{
+    width: 3.25rem;
+    height: 3.25rem;
 }
