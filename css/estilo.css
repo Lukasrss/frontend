@@ -51,6 +51,15 @@ html[data-theme='light'] .tecnologias-logo {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* 
+    A propriedade box-sizing em CSS é usada para alterar o modelo de caixa de um elemento.
+    O valor border-box é usado para garantir que a largura e a altura de um elemento
+    incluam as bordas e o preenchimento, em vez de apenas o conteúdo.
+    Quando você define box-sizing: border-box;, está dizendo ao navegador
+    para calcular a largura e a altura total de um elemento,
+    incluindo a largura das bordas e o preenchimento, e não apenas o conteúdo.
+    */
+
     vertical-align: baseline;
     list-style: none;
     scrollbar-width: thin;
@@ -62,7 +71,38 @@ body {
     color: var(--text-color);
 }
 
-/* Conteudos extra */
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+a:hover {
+    color: var(--primary-color);
+}
+i{
+    color: var(--icon-color);
+}
+b {
+    font-weight: 400;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.4rem;
+}
+h3{
+    font-size: 1.55rem;
+    text-align: left;
+}
+h4{
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 1.15rem;
+    text-align: left;
+}
 
 #header {
     display: flex;
@@ -92,6 +132,7 @@ body {
     display: flex;
     align-items: center;
     background: var(--primary-bg-color);
+    gap: 1rem;
 }
 .menu-item {
     width: 100%;
