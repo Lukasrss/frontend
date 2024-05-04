@@ -159,7 +159,7 @@ p{
 
 .menu-mobile {
     width: 100vw;
-    /*position: fixed;*/
+    position: fixed;
     bottom: 0;
     justify-content: space-between;
     border-top: 1px solid var(--primary-border-color);
@@ -188,7 +188,7 @@ p{
     text-transform: uppercase;
 }
 .header-nav {
-    display: /*none*/;
+    display: none;
 }
 
 .menu-principal{
@@ -315,7 +315,7 @@ p{
 .card-descricao{
     color: var(--title-color);
 }
-.card-lista, .sobrer-lista{
+.card-lista, .sobre-lista{
     margin-left: 1.25rem;
 }
 .card-item, .sobre-item {
@@ -366,7 +366,7 @@ p{
     object-position: center;
     pointer-events: none; /*Bloqueio a opção de download da imagem*/
     border-radius: 50%; /* Original 50rem */
-    border: 2px solid var(--primary-color);
+    border: 8px solid var(--primary-color);
 }
 .sobre-descricao {
     display: flex;
@@ -440,3 +440,39 @@ p{
 
 /* Contato */
 
+.contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border-top: 1px solid var(--primary-border-color);
+    border-bottom: 1px solid var(--primary-border-color);
+}
+.contato p {
+    text-align: center;
+}
+.contato .btn {
+    width: auto;
+}
+.contato .email {
+    text-transform: uppercase;
+}
+
+/*Rodape*/
+
+footer {
+    margin-bottom: 5rem;
+}
+footer p {
+    font-size: .875rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*Responsividade*/
+@media (min-width: 768px){
+    .header {
+        
+    }
+}
