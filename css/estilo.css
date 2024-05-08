@@ -537,7 +537,7 @@ footer p {
         display: grid;
         grid-template-columns: 34% 60%;
         justify-content: flex-start;
-        align-items: flex-start;/*alterar futuramente para center*/
+        align-items: flex-start;
         gap: 4rem;
     }
     .sobre-descricao h2{
@@ -582,5 +582,30 @@ footer p {
     }
     p, span, li{
         font-size: 1.15rem;
+    }
+    .card-button .btn,
+    .descricao-button .btn{
+        width: auto;
+    }
+    .sobre-content1{
+        align-items: center;
+    }
+}
+
+@media(min-width: 1400px){
+    h1{
+        font-size: 6.25rem;
+    }
+    h2{
+        font-size: 4.5rem;
+    }
+    h3{
+        font-size: 3.25;
+    }
+    .header {
+        padding: 12rem 15rem 2rem;
+    }
+    .tecnologias, .projetos, .sobre {
+        padding: 10rem 15rem 4rem;
     }
 }
