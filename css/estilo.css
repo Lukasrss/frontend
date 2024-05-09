@@ -3,8 +3,7 @@
 /*Variaveis para tema escuro e tema claro*/
 :root, :root[data-theme='dark'] {
     --primary-color: #F0F0F0;
-    --secundary-color: #d82424; /* extra */
-    --primary-bg-color: #111217;
+    --primary-bg-color: #131313;
     --secondary-bg-color: #28292E;
     --primary-border-color: #28292E;
     --secondary-border-color: #56575A;
@@ -40,7 +39,7 @@ Isso oferece uma maneira flexível de definir valores
 que podem ser reutilizados em todo o seu CSS e facilmente atualizados de um único lugar.
 */
 
-html[data-theme='light'] .brand-logo {
+html[data-theme='light'] .logo {
     filter: invert(1);
 }
 html[data-theme='light'] .tecnologias-logo {
@@ -242,7 +241,7 @@ p{
     aspect-ratio: 16/9;
 }
 #home, .projetos, .sobre, .contato{
-    padding: 2.5rem 1rem; /* se necessario remover 1rem*/
+    padding: 2.5rem 1rem; 
 }
 .tecnologias {
     display: flex;
