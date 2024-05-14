@@ -10,7 +10,7 @@
 
     --title-color: #F0F0F0;
     --text-color: #9a9a9c;
-    --link-color: #9a9a9c;
+    --link-color: white;
     --icon-color: #c7c8c9;
 
 }
@@ -23,9 +23,9 @@
 
     --title-color: #0b0b0f;
     --text-color: #28292e;
-    --link-color: #28292e;
+    --link-color: rgb(52, 55, 230);
     --icon-color: #56575a;
-
+    
 }
 
 /*
@@ -173,7 +173,7 @@ p{
 .menu-link.active .menu-text,
 .menu-link:hover .menu-icon, 
 .menu-link:hover .menu-text {
-    color: var(--primary-color);
+    color: var(--link-color);
 }
 
 .menu-icon, .menu-text{
