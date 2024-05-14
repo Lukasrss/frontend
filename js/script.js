@@ -27,7 +27,7 @@ accordionHeaders.forEach(header => {
 })
 // Fim função accordion
 
-//Função munu links
+//Função menu links
 
 menuLinks.forEach(item => {
     item.addEventListener("click", () => {
